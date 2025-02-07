@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>D3 Demo</title>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      </head>
+	
+	<body>
+		<center>
+			<h1>Open the Console to See Results</h1>
+
+            <div class="text1">This div has a class attribute</div>
+            <div id="text2">This div has an id attribute</div>
+
+            <div class="my-link">
+                <a href="https://github.com/d3/d3-selection">More on D3</a>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <!-- Student Grades -->
+                    <table class="grades table">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Grade</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+            <hr>
+
+            <h2>Number of times the 'Click Me' button was clicked: </h2>
+            <h2 class="counter">0</h2>
+
+            <button id="button1">Click Me</button> 
+
+            <button id="button2">Reset</button><br>
+
+            <hr>
+
+            <select id="selDataset">
+              <option value="australia">Australia</option>
+              <option value="brazil">Brazil</option>
+              <option value="uk">United Kingdom</option>
+              <option value="mexico">Mexico</option>
+              <option value="singapore">Singapore</option>
+              <option value="southAfrica">South Africa</option>
+            </select>
+
+            <div id="bar"></div>
+            <div id="pie"></div>
+
+			<script src="d3Demo.js"></script>
+      <script src="globaldata.js"></script>
+      <script src="globaldataPlots.js"></script>
+			
+			<hr>
+			<em>Copyright &copy; 2025 Dr. A's Website</em>			
+		</center>
+	</body>
+</html>
